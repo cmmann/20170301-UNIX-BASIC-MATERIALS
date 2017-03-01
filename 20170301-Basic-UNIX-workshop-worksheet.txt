@@ -1,0 +1,93 @@
+BCBGSO Basic UNIX Workshop Worksheet
+2017-03-01
+Exercise 1: Destination Traveling
+1. Change your directory to exercise1
+
+2. Visit a place you’ve never been to before by changing directories
+
+3. List all the locations in that directory
+
+4. “Travel” directly to another “country” FROM YOUR CURRENT COUNTRY 
+
+5. Identify the absolute path to the file “Carmen-Sandiego.txt”
+
+6. Identify the largest FILE in exercise1
+
+7. Determine what happens when you go up one level from your home directory
+
+Exercise 2: Making (and Breaking) Memories
+1.	Make a directory called exercise2
+
+2.	Change directory to your newly-created exercise2 directory
+
+3.	Make a directory called keep in exercise2 
+
+4.	Make all the directories in the path: bcbgso/basic/linux/workshop
+Can you do this without changing directories?
+
+5.	Make a file called “memories.txt” in the workshop directory. Can you do this without changing directories?
+
+
+6.	Remove “memories.txt” without changing directories
+
+7.	Remove the directory bcbgso
+
+Exercise 3: Moving Mountains
+1. Navigate to exercise3 and list the files in the directory in such a fashion that you can see the file size
+
+2. Each file contains information about a mountain, including which mountain range it belongs to and its elevation, and in some cases, how deadly it is. Based on the size of the files, determine the best method to use to determine the contents of each file (i.e., should you use cat or head on that 409KB file?)
+
+3. Determine which mountain has the lowest elevation
+
+4. Create a folder for each mountain, that contains the name of the mountain range it belongs to. Example: For Mount-Everest.txt, you will create a folder called Himalayas
+
+5. K2 has two other names – Mount Godwin-Austen, and Chhogori. Create a copy of K2.txt called Chhogori.txt in its appropriate folder. 
+
+6. Then move K2.txt into the appropriate folder, but rename it Mount-Godwin-Austen.txt.
+
+7. Move each mountain into its proper folder, no renaming needed!
+
+8. Create a folder called deadliest-mountain. Copy the deadliest mountain’s file into this folder.
+
+Lesson 4.2:
+rwxr-xr-x
+What permissions do YOU have?
+
+What permissions does GROUP have?
+
+Whate permissions does EVERYONE have?
+
+Changing Permissions:
+What permissions would you give with a 5?
+
+With a 3?
+
+If you want to give the OWNER ALL permissions, the group READ and WRITE permissions, and GLOBAL NO permissions, what code would you use? chmod ??? <filename>
+
+What permissions does EACH USER have for: rwx-w---x?
+
+What permissions does each user have with: 567?
+
+Why wouldn’t you want to give Global all permissions?
+
+
+Exercise 4: 
+1.	Navigate to exercise4
+
+2.	Make a file called Mario.txt
+
+
+3.	Find the file Bowser.txt 
+
+4.	Move Mario.txt to the location of Bowser.txt
+
+
+5.	Output the text of Bowser.txt to determine how to ‘defeat’ Bowser
+
+6.	After ‘defeating’ Bowser.txt, find the file Princess-Peach.txt and move it and Mario.txt to exercise4/mushroom-kingdom/castle/
+
+
+7.	Lock down (by changing permissions) mushroom-kingdom/castle so that no one (including you) can enter!
+
+
+
